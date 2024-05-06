@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.light {
+  background-color: #fff;
+  color: #000;
+}
+
+.dark {
+  background-color: #000;
+  background-color: #ff9d2d;
+}
+
+body {
+  font-family: "Kodchasan", sans-serif;
+}
+.container {
+  max-width: 1500px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.ota {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 30px 0;
+}
+
+.menu {
+  display: flex;
+  gap: 40px;
+
+  a {
+    font-family: Kodchasan;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23.4px;
+    color: #000;
+
+    text-transform: capitalize;
+    text-decoration: none;
+  }
+}
+
+.ona {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 100px 20px 100px 100px;
+
+  background: linear-gradient(76.02deg, #ff9d2d 1.66%, #ffd877 93.21%);
+  border-radius: 30px;
+  h1 {
+    font-family: Kodchasan;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 130px;
+  }
+}
+
+.btn1 {
+  padding: 20px 50px;
+  color: white;
+  background-color: #000;
+}
+
+.btn2 {
+  padding: 20px 50px;
+  color: black;
+  background-color: transparent;
+}
+
+.toga img {
+  width: 100%;
+  margin: 40px 0;
+}
+
+.toga h2 {
+  margin: 40px 0;
+}
+
+.opa button {
+  padding: 15px 40px 15px 40px;
+  color: white;
+  background-color: #ff9d2d;
+}
+
+.opa-img img {
+  width: 100%;
+}
+
+.opa {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  padding: 30px 0;
+}
+
+.aka {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  padding: 30px 0;
+}
+
+.aka button {
+  padding: 15px 40px 15px 40px;
+  color: white;
+  background-color: #ff9d2d;
+}
+
+.uka {
+  background-color: rgba(229, 130, 17, 0.2);
+  padding: 45px 0 45px 30px;
+
+  display: flex;
+  align-items: center;
+}
+
+.amaki {
+  max-width: 1150px;
+  width: 100%;
+  margin: 0 auto;
+
+  display: flex;
+  gap: 30px;
+}
+
+.uka-txt {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+  button {
+    width: 140px;
+    padding: 10px 30px;
+    background: transparent;
+    line-height: 28.8px;
+    font-family: Kodchasan;
+
+    font-weight: 700;
+    line-height: 28.8px;
+    text-align: left;
+  }
+}
+
+footer {
+  background: linear-gradient(76.02deg, #ff9d2d 1.66%, #ffd877 93.21%);
+  width: 100%;
+  height: max-content;
+  padding: 60px 0;
+}
+
+.jiyan {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
